@@ -1,24 +1,24 @@
-# wmarsha 极限序列化工具
+# wmarsha Extreme serialization tool
 
-# 与google.protobuf对比测试
+# Compare test with google.protobuf
 
-Marshal速度是pb的9～33倍
+Marshal speed is 9 to 33 times that of pb
 
-Unmarsha速度是pb的105～263倍
+Unmarsha speed is 105 ～ 263 times of pb
 
-Marshal得到的字节流是pb的27%～72%
+The byte stream obtained by Marshal is 27% ～ 72% of pb
 
-内存占用是pb的21%～93%
+Memory usage is 21% ～ 93% of pb
 
-Marshal的cpu占用是pb的102%～320%
+Marshal's CPU usage is 102% ～ 320% of pb
 
-Unmarsha的cpu占用是pb的79%～211%
+Unmarsha's CPU usage is 79% ～ 211% of pb
 
-Marshal与Unmarsha的cpu占用是pb的79%～320%，其中大于100%的概率为73%，优化工作还在进行中。
+Marshal and Unmarsha's CPU usage is 79% to 320% of pb, and the probability of being greater than 100% is 73%, and the optimization work is still in progress.
 
-备注：目前嵌套结构尚未完成，还没有测试数据。
+Remarks: At present, the nesting structure has not been completed, and there is no test data.
 
-测试环境及数据，测试案例将在发布一起上传。
+Test environment and data, test cases will be uploaded together with the release.
 
-# 目前只完成了go的实现版本，后续将对c/c++，java，js，python，c#，lua，typescript等语言进行支持
-# 开源发布工作还在继续中，敬请关注...
+# At present, only the implementation version of go has been completed, and subsequent languages such as c / c ++, java, js, python, c #, lua, and typescript will be supported.
+# Open source release work is continuing, so stay tuned ...
